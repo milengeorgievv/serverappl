@@ -1,0 +1,14 @@
+version: '3.8'
+
+volumes:
+  mariadb_data:
+
+services:
+  mariadb:
+    image: mariadb:10.5.9-focal
+    ports:
+      - 3314:3306
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ThePassword12345

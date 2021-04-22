@@ -1,0 +1,54 @@
+plugins {
+    id 'org.springframework.boot' version '2.4.3'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'com.vaadin' version '0.14.3.7'
+    id 'java'
+}
+
+group = 'com.uni'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven{
+        url 'http://maven.vaadin.com/vaadin-addons'
+    }
+}
+
+ext {
+    set('vaadinVersion', "14.4.8")
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-jooq'
+    implementation 'com.vaadin:vaadin-spring-boot-starter'
+    implementation 'org.hibernate:hibernate-validator:6.2.0.Final'
+    implementation 'org.vaadin.gatanaso:multiselect-combo-box-flow:3.0.2'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.5.6'
+    implementation 'org.vaadin.gatanaso:multiselect-combo-box-flow:3.0.2'
+    compileOnly 'org.projectlombok:lombok'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client:2.7.2'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "com.vaadin:vaadin-bom:${vaadinVersion}"
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

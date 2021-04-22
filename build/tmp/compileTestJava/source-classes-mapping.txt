@@ -1,0 +1,2 @@
+com/uni/resourcemanager/serverapp/ServerappApplicationTests.java
+ com.uni.resourcemanager.serverapp.ServerappApplicationTests

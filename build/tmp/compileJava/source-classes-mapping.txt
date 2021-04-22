@@ -1,0 +1,56 @@
+com/uni/serverapp/backend/repository/CourseRepository.java
+ com.uni.serverapp.backend.repository.CourseRepository
+com/uni/serverapp/backend/entity/Teacher.java
+ com.uni.serverapp.backend.entity.Teacher
+com/uni/serverapp/backend/enums/Title.java
+ com.uni.serverapp.backend.enums.Title
+com/uni/serverapp/ui/components/StudentAddDialog.java
+ com.uni.serverapp.ui.components.StudentAddDialog
+com/uni/serverapp/ui/components/ConfirmationDialog.java
+ com.uni.serverapp.ui.components.ConfirmationDialog
+com/uni/serverapp/backend/entity/AbstractEntity.java
+ com.uni.serverapp.backend.entity.AbstractEntity
+com/uni/serverapp/ui/views/BestTeachersView.java
+ com.uni.serverapp.ui.views.BestTeachersView
+com/uni/serverapp/ui/components/TeacherAddDialog.java
+ com.uni.serverapp.ui.components.TeacherAddDialog
+com/uni/serverapp/backend/service/CourseService.java
+ com.uni.serverapp.backend.service.CourseService
+com/uni/serverapp/ServerApplication.java
+ com.uni.serverapp.ServerApplication
+com/uni/serverapp/ui/components/AddStudentToCourseDialog.java
+ com.uni.serverapp.ui.components.AddStudentToCourseDialog
+com/uni/serverapp/ui/components/CourseAddDialog.java
+ com.uni.serverapp.ui.components.CourseAddDialog
+com/uni/serverapp/backend/repository/StudentRepository.java
+ com.uni.serverapp.backend.repository.StudentRepository
+com/uni/serverapp/ui/views/StudentsInfoView.java
+ com.uni.serverapp.ui.views.StudentsInfoView
+com/uni/serverapp/ui/views/MainView.java
+ com.uni.serverapp.ui.views.MainView
+com/uni/serverapp/backend/entity/Course.java
+ com.uni.serverapp.backend.entity.Course
+com/uni/serverapp/backend/service/TeacherService.java
+ com.uni.serverapp.backend.service.TeacherService
+com/uni/serverapp/backend/entity/Student.java
+ com.uni.serverapp.backend.entity.Student
+com/uni/serverapp/backend/entity/TeacherInt.java
+ com.uni.serverapp.backend.entity.TeacherInt
+com/uni/serverapp/ui/views/StudentsCreditsView.java
+ com.uni.serverapp.ui.views.StudentsCreditsView
+com/uni/serverapp/backend/entity/TopCoursesInt.java
+ com.uni.serverapp.backend.entity.TopCoursesInt
+com/uni/serverapp/ui/components/RemoveStudentFromCourseDialog.java
+ com.uni.serverapp.ui.components.RemoveStudentFromCourseDialog
+com/uni/serverapp/ui/views/TeachersView.java
+ com.uni.serverapp.ui.views.TeachersView
+com/uni/serverapp/ui/views/AllPeopleInUniversityView.java
+ com.uni.serverapp.ui.views.AllPeopleInUniversityView
+com/uni/serverapp/backend/entity/CombinedInt.java
+ com.uni.serverapp.backend.entity.CombinedInt
+com/uni/serverapp/backend/service/StudentService.java
+ com.uni.serverapp.backend.service.StudentService
+com/uni/serverapp/backend/repository/TeacherRepository.java
+ com.uni.serverapp.backend.repository.TeacherRepository
+com/uni/serverapp/ui/views/MostFamousCoursesView.java
+ com.uni.serverapp.ui.views.MostFamousCoursesView
